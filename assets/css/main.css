@@ -3187,6 +3187,12 @@
 			color: inherit;
 		}
 
+		.contact {
+			list-style-type: none;
+			margin-bottom: 0;
+			padding-left: 0;
+		}
+
 		#cta form {
 			margin: 0 auto;
 			max-width: 100%;
