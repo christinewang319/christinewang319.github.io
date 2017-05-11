@@ -3193,6 +3193,11 @@
 			padding-left: 0;
 		}
 
+		.contact a {
+			border-bottom: none;
+			color: #f9e5df;
+		}
+
 		#cta form {
 			margin: 0 auto;
 			max-width: 100%;
