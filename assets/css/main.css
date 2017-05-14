@@ -2273,6 +2273,26 @@
 			width: calc(100% + 6em);
 		}
 
+		header .major p {
+			margin-top: none;
+		}
+
+		.profile {
+			font-size: 1.25em;
+		}
+		
+		#profile {
+			border-radius: 0;
+			background-image: url("../../images/pic01.jpg");
+		}
+
+			#profile img {
+				border-radius: 0;
+				display: block;
+				width: 25%;
+				margin: 3em auto;
+			}
+
 			.box .image.featured img {
 				border-radius: 0;
 				display: block;
