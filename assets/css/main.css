@@ -2226,28 +2226,20 @@
 					margin-bottom: 0;
 				}
 
-				.box.features .features-row section:nth-child(3n) {
-					padding-right: 0;
-				}
-
-				.box.features .features-row section:nth-child(3n) {
-					padding-right: 0;
-				}
-
 					.box.features .features-row section:nth-child(2n):before,
 					.box.features .features-row section:nth-child(3n):before {
 						background: #e5e5e5;
 						content: '';
 						display: block;
 						height: 100%;
-						margin-left: -.5em;
+						margin-left: -.25em;
 						position: absolute;
 						top: 0;
 						width: 2px;
 					}
 
 					.box.features .features-row section:nth-child(3n):before {
-						margin-left: -2.5em;
+						margin-left: -2.75em;
 					}
 
 				.box.features .features-row section:nth-child(3n-1) {
