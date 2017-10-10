@@ -2219,47 +2219,49 @@
 			.box.features .features-row section {
 				float: left;
 				padding: 3em;
-				width: 50%;
+				width: 33.33%;
 			}
 
 				.box.features .features-row section :last-child {
 					margin-bottom: 0;
 				}
 
-				.box.features .features-row section:nth-child(2n) {
+				.box.features .features-row section:nth-child(3n) {
 					padding-right: 0;
 				}
 
-					.box.features .features-row section:nth-child(2n):before {
+				.box.features .features-row section:nth-child(3n) {
+					padding-right: 0;
+				}
+
+					.box.features .features-row section:nth-child(2n):before,
+					.box.features .features-row section:nth-child(3n):before {
 						background: #e5e5e5;
 						content: '';
 						display: block;
 						height: 100%;
-						margin-left: -3em;
+						margin-left: -.5em;
 						position: absolute;
 						top: 0;
 						width: 2px;
 					}
 
-				.box.features .features-row section:nth-child(2n-1) {
+					.box.features .features-row section:nth-child(3n):before {
+						margin-left: -2.5em;
+					}
+
+				.box.features .features-row section:nth-child(3n-1) {
 					padding-left: 0;
+					padding-right: 0;
 				}
 
 			.box.features .features-row:first-child {
 				border-top: 0;
 			}
 
-				.box.features .features-row:first-child section {
-					padding-top: 0;
-				}
-
 			.box.features .features-row:last-child {
 				padding-bottom: 0;
 			}
-
-				.box.features .features-row:last-child section {
-					padding-bottom: 0;
-				}
 
 		.box.special {
 			text-align: center;
@@ -2357,22 +2359,40 @@
 				color: #ffffff;
 			}
 
-			.icon.major.accent2, .devicon-ruby-plain-wordmark, .devicon-react-original-wordmark, .devicon-html5-plain-wordmark {
+			.icon.major.accent2,
+			.devicon-javascript-plain,
+			.devicon-html5-plain-wordmark,
+			.devicon-rails-plain-wordmark,
+			.devicon-bower-plain-wordmark,
+			.devicon-sourcetree-plain-wordmark {
 				background: #e89980;
 				color: #ffffff;
 			}
 
-			.icon.major.accent3, .devicon-rails-plain-wordmark, .devicon-postgresql-plain-wordmark, .devicon-css3-plain-wordmark {
+			.icon.major.accent3,
+			.devicon-angularjs-plain-wordmark,
+			.devicon-css3-plain-wordmark,
+			.devicon-postgresql-plain-wordmark,
+			.devicon-grunt-plain-wordmark,
+			.devicon-heroku-original-wordmark {
 				background: #7fcdb8;
 				color: #ffffff;
 			}
 
-			.icon.major.accent4, .devicon-javascript-plain, .devicon-mysql-plain-wordmark, .devicon-amazonwebservices-plain-wordmark {
+			.icon.major.accent4,
+			.devicon-react-original-wordmark,
+			.devicon-sass-original,
+			.devicon-jasmine-plain-wordmark,
+			.devicon-webpack-plain-wordmark {
 				background: #90b0ba;
 				color: #ffffff;
 			}
 
-			.icon.major.accent5, .devicon-jquery-plain-wordmark, .devicon-git-plain-wordmark, .devicon-heroku-original-wordmark {
+			.icon.major.accent5,
+			.devicon-jquery-plain-wordmark,
+			.devicon-ruby-plain-wordmark,
+			.devicon-nodejs-plain,
+			.devicon-git-plain-wordmark {
 				background: #e5cb95;
 				color: #ffffff;
 			}
